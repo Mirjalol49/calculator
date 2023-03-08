@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Shantell Sans', "Arial", sans-serif;
+    background-color: rgb(250, 239, 223);
+}
+
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* STICKY-FOOTER */
+
+.site-main {
+    flex-grow: 1;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(225, 212, 237);
+    border-radius: 5px;
+}
+
+.main-head {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.inputone {
+    width: 300px;
+    font-size: 30px;
+    border: 1.8px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Shantell Sans';
+}
+
+.select {
+    width: 300px;
+    font-size: 25px;
+    border: 1.8px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputsecond {
+    width: 300px;
+    font-size: 30px;
+    border: 1.8px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Shantell Sans';
+}
+
+.btn {
+    width: 300px;
+    font-size: 30px;
+    border: 2px solid #2aa937;
+    outline: none;
+    border-radius: 5px;
+    background-color: #2aa937;
+    color: white;
+    cursor: pointer;
+    font-family: 'Shantell Sans';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result {
+    background-color: rgb(75, 75, 240);
+    color: white;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.again {
+    display: none;
+}
+
+.refresh {
+    display: block;
+    width: 300px;
+    font-size: 30px;
+    border: 2px solid #2aa937;
+    outline: none;
+    border-radius: 5px;
+    background-color: #2aa937;
+    color: white;
+    cursor: pointer;
+    font-family: 'Shantell Sans';
+}
